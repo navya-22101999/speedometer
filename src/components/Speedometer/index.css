@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.speed-container {
+  text-align: center;
+}
+.heading {
+  font-size: 30px;
+  font-family: roboto;
+  font-style: italic;
+  color: white;
+}
+.para {
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
+}
+.image {
+  height: 35vh;
+  width: 40vw;
+}
+.Accelerate {
+  background-color: #0b69ff;
+  height: 5vh;
+  width: 10vw;
+  color: white;
+  font-size: 12px;
+  font-family: roboto;
+  border-radius: 5px;
+  border-style: none;
+  margin-right: 10px;
+}
+.Apply-Brake {
+  background-color: transparent;
+  height: 5vh;
+  width: 10vw;
+  color: white;
+  font-size: 12px;
+  font-family: roboto;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+}
